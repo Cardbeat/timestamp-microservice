@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT  || 3000
 const makeTimestamp = require('./timestamp.js')
@@ -6,10 +7,15 @@ const makeTimestamp = require('./timestamp.js')
 
 //routes
 
+//midleware
+app.use(express.static('public'));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.set('views', './app/views');
+app.set('view engine', 'pug');
 
 //root
 app.get('/', function(req,res) {
-  res.send('Hello Worl!')
+  res.render('index', { title: 'timestamp micro-service'});
 })
 
 //get query for timestamp
