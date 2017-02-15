@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lobster|Roboto');
+
+body {
+  background-color: skyblue;
+}
+
+
+.box {
+  display: block;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.box h1 a {
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color: green;
+}
+
+.box h2 {
+  font-family: 'Arvo', cursive;
+  color: #979eff;
+}
+
+.box h3 {
+  color: #979eff;
+}
+
+.box p {
+  color: #061543;
+  font-family: 'Roboto', sans-serif;
+}
