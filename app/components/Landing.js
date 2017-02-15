@@ -16,4 +16,3 @@ export default class Landing extends React.Component {
     )
   }
 }
-https://sheltered-meadow-55777.herokuapp.com
