@@ -17,7 +17,7 @@ body {
   padding: 5px;
 }
 
-.box h1 {
+.box h1 a {
   text-decoration: none;
   font-family: 'Lobster', cursive;
   font-size: 60px;
