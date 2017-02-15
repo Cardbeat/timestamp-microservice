@@ -9,9 +9,9 @@ export default class Landing extends React.Component {
         <h1> <a target="_blank" href="https://www.freecodecamp.com/challenges/timestamp-microservice">Free Code Camp</a></h1>
         <h2>API project : Timestamp microservice </h2>
         <h3>Example usage:</h3>
-        <p>https://shrouded-refuge-52626.herokuapp.com/21323123123</p>
-        <p>https://shrouded-refuge-52626.herokuapp.com/August%2021,%201993</p>
-        <p>https://shrouded-refuge-52626.herokuapp.com/TestingRandomTextToGetNullJSON</p>
+        <p>shrouded-refuge-52626.herokuapp.com/21323123123</p>
+        <p>shrouded-refuge-52626.herokuapp.com/August%2021,%201993</p>
+        <p>shrouded-refuge-52626.herokuapp.com/TestingRandomTextToGetNullJSON</p>
       </div>
     )
   }
